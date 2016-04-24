@@ -102,6 +102,7 @@ public class EventLogger{
 					  .append(dbCallIdentifier).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	/**
@@ -121,6 +122,7 @@ public class EventLogger{
 					  .append(dbCallIdentifier).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	/**
@@ -141,6 +143,7 @@ public class EventLogger{
 					  .append(dbCallIdentifier).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -161,6 +164,7 @@ public class EventLogger{
 					  .append(dbCallIdentifier).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	/**
@@ -180,6 +184,7 @@ public class EventLogger{
 					  .append(errorDetails).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	/**
@@ -198,6 +203,7 @@ public class EventLogger{
 					  .append(errorDetails).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -221,6 +227,7 @@ public class EventLogger{
 					   .append(debugStatement).append(fs)
 					   .append(comments).append(fs)
 					   .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -243,6 +250,7 @@ public class EventLogger{
 					   .append(debugStatement).append(fs)
 					   .append(comments).append(fs)
 					   .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -264,6 +272,7 @@ public class EventLogger{
 					  .append(serviceName).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -284,6 +293,7 @@ public class EventLogger{
 					  .append(serviceName).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -305,6 +315,7 @@ public class EventLogger{
 					  .append(serviceName).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -325,6 +336,7 @@ public class EventLogger{
 					  .append(serviceName).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	
@@ -348,6 +360,7 @@ public class EventLogger{
 					  .append(url).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 
@@ -370,6 +383,7 @@ public class EventLogger{
 					  .append(url).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 	
 	/**
@@ -392,6 +406,7 @@ public class EventLogger{
 					  .append(url).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 
 
@@ -414,6 +429,7 @@ public class EventLogger{
 					  .append(url).append(fs)
 					  .append(comments).append(fs)
 					  .toString());
+		sb.delete(0, sb.length());
 	}
 
 	
