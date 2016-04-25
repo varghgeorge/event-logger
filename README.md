@@ -1,5 +1,4 @@
-# event-logger
-Event Logging Framework (ELF)
+# Event Logging Framework (ELF)
 
 Most of the logging are random, not structred/usable and are not utilized correctly. Logs contain valuable information which most systems miss due to this lack of structure.
 
