@@ -13,28 +13,12 @@ ELF is a framework/solution for it. In ELF, all types of logging are considered 
 
 <b>Record Details:</b>
  - DBA, SVC & COM types contains start (S) (prior to the event) and end (E) records. This gives visibility into elapsed time.
+ - All log statements contains common attributes like session & request ids along with date/time stamp.
 
-```java
- 	logger.info(sb.append(logIndicator).append(fs)
-		  .append(appId).append(fs)
-		  .append(logTypeDb).append(fs)
-		  .append(startIndicator).append(fs)
-		  .append(new Date()).append(fs)
-		  .append(sessionId).append(fs)
-		  .append(requestId).append(fs)
-		  .append(dbCallIdentifier).append(fs)
-		  .append(comments).append(fs)
-		  .toString());
+<b>Advantages</b>
+⋅⋅* No random strings in the logs. All events have its own table like structures. 
+⋅⋅* Multiple teams across the organization following same logging standards enforced by the framework.
+⋅⋅* Known structure and format enables writing standard tools/quries. And same queries can be used across the organization.
+⋅⋅* Provides visibility into timing and bottlenecks. 
+⋅⋅* Common attributes in the logs like session/request identifier provides visibility into session and request flows across multiple microservies and sub systems.
 
-	logger.info(sb.append(logIndicator).append(fs)
-		  .append(appId).append(fs)
-		  .append(logTypeDb).append(fs)
-		  .append(endIndicator).append(fs)
-		  .append(new Date()).append(fs)
-		  .append(sessionId).append(fs)
-		  .append(requestId).append(fs)
-		  .append(dbCallIdentifier).append(fs)
-		  .append(comments).append(fs)
-		  .toString());
-
- 
