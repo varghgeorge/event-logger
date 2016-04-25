@@ -16,9 +16,9 @@ ELF is a framework/solution for it. In ELF, all types of logging are considered 
  - All log statements contains common attributes like session & request ids along with date/time stamp.
 
 <b>Advantages</b>
-⋅⋅* No random strings in the logs. All events have its own table like structures. 
-⋅⋅* Multiple teams across the organization following same logging standards enforced by the framework.
-⋅⋅* Known structure and format enables writing standard tools/quries. And same queries can be used across the organization.
-⋅⋅* Provides visibility into timing and bottlenecks. 
-⋅⋅* Common attributes in the logs like session/request identifier provides visibility into session and request flows across multiple microservies and sub systems.
+* No random strings in the logs. All events have its own table like structures. 
+* Multiple teams across the organization following same logging standards enforced by the framework.
+* Known structure and format enables writing standard tools/quries. And same queries can be used across the organization.
+* Provides visibility into timing and bottlenecks. 
+* Common attributes in the logs like session/request identifier provides visibility into session and request flows across multiple microservies and sub systems.
 
