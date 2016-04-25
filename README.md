@@ -27,12 +27,12 @@ ELF is a framework/solution for it. In ELF, all types of logging are considered 
 		  .toString());
 
 	logger.info(sb.append(logIndicator).append(fs)
-		  .append(eventLogRequest.getAppId()).append(fs)
+		  .append(appId).append(fs)
 		  .append(logTypeDb).append(fs)
-		  .append(startIndicator).append(fs)
+		  .append(endIndicator).append(fs)
 		  .append(new Date()).append(fs)
-		  .append(eventLogRequest.getSessionId()).append(fs)
-		  .append(eventLogRequest.getRequestId()).append(fs)
+		  .append(sessionId).append(fs)
+		  .append(requestId).append(fs)
 		  .append(dbCallIdentifier).append(fs)
 		  .append(comments).append(fs)
 		  .toString());
