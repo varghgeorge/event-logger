@@ -25,7 +25,7 @@ ELF is a framework/solution for it. In ELF, all types of logging are considered 
 					  .append(comments).append(fs)
 					  .toString());
 
-        logger.info(sb.append(logIndicator).append(fs)
+		logger.info(sb.append(logIndicator).append(fs)
 				  .append(eventLogRequest.getAppId()).append(fs)
 				  .append(logTypeDb).append(fs)
 				  .append(startIndicator).append(fs)
